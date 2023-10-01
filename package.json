@@ -2,13 +2,15 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "raycast-toggl-track",
   "title": "Raycast Toggl Track",
-  "description": "Handle Toogle Track  tasks with Raycast",
+  "description": "Handle Toggle Track time entries with Raycast",
   "icon": "extension_icon.png",
   "author": "saarnilauri",
   "categories": [
     "Productivity"
   ],
-  "screenshots": ["assets/preview.png"],
+  "screenshots": [
+    "assets/preview.png"
+  ],
   "commands": [
     {
       "name": "start-toggl-time-entry",
@@ -47,7 +49,6 @@
     "is-online": "^10.0.0",
     "luxon": "^3.4.3",
     "node-fetch": "^3.3.2",
-    "toggl-client": "^3.5.0",
     "toggl-track": "^0.7.6"
   },
   "devDependencies": {
